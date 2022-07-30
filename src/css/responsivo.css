@@ -1,0 +1,33 @@
+@media(max-width: 620px)
+{
+    .kimetsu-slider{
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-kimetsu{
+        height: 480px;
+    }
+
+    .cartao .personagens{
+        max-height: 230px;
+    }
+
+    .cartao .informacoes .nome{
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .cartao .informacoes .raca{
+        font-size: 14px;
+    }
+}
