@@ -24,10 +24,14 @@
 
     .cartao .informacoes .nome{
         max-width: 50%;
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .cartao .informacoes .raca{
-        font-size: 14px;
+        font-size: 10px;
+    }
+
+    .cartao .descricao .texto{
+        font-size: 11px;
     }
 }

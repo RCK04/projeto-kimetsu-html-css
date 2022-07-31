@@ -15,7 +15,7 @@ body{
 }
 
 .cabecalho .titulo{
-    color: #C4302B;
+    color: #0081CF;
 }
 
 .cabecalho .logo{
@@ -35,6 +35,30 @@ body{
     width: 310px;
     height: 525px;
     position: relative;
+    border: 3px solid black;
+    border-radius: 18px;
+}
+
+.numero-redondo{
+    display: flex;
+    background-color: #054F77;
+    color: #f1ecff;
+    width: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.numero-amarelo{
+    background-color: #EEAD2D;
+}
+
+.numero-verde{
+    background-color: #77DD77;
+}
+
+.numero-vermelho{
+    background-color: #9B111E;
 }
 
 .cartao .personagens{
@@ -121,9 +145,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 10px;
+    padding: 7px 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 2px solid black;
 }
 
 .cartao .informacoes .nome{
@@ -149,7 +174,7 @@ body{
 }
 
 .cartao .descricao .titulo{
-    background-color: #333;
+    background-color: #008F7A;
     color: #f1ecff;
     font-size: 15px;
     padding: 10px;
